@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8297AA2E24E5BC6000C147F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297AA2D24E5BC6000C147F8 /* AppDelegate.swift */; };
+		8297AA3024E5BC6000C147F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297AA2F24E5BC6000C147F8 /* ViewController.swift */; };
+		8297AA3324E5BC6000C147F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8297AA3124E5BC6000C147F8 /* Main.storyboard */; };
+		8297AA3624E5BC6000C147F8 /* tvWeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8297AA3424E5BC6000C147F8 /* tvWeatherApp.xcdatamodeld */; };
+		8297AA3824E5BC6200C147F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8297AA3724E5BC6200C147F8 /* Assets.xcassets */; };
+		8297AA3B24E5BC6200C147F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8297AA3924E5BC6200C147F8 /* LaunchScreen.storyboard */; };
+		8297AA4624E5BC6200C147F8 /* tvWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297AA4524E5BC6200C147F8 /* tvWeatherAppTests.swift */; };
+		8297AA5124E5BC6300C147F8 /* tvWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297AA5024E5BC6300C147F8 /* tvWeatherAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8297AA4224E5BC6200C147F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8297AA2224E5BC6000C147F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8297AA2924E5BC6000C147F8;
+			remoteInfo = tvWeatherApp;
+		};
+		8297AA4D24E5BC6300C147F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8297AA2224E5BC6000C147F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8297AA2924E5BC6000C147F8;
+			remoteInfo = tvWeatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8297AA2A24E5BC6000C147F8 /* tvWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8297AA2D24E5BC6000C147F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8297AA2F24E5BC6000C147F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8297AA3224E5BC6000C147F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8297AA3524E5BC6000C147F8 /* tvWeatherApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tvWeatherApp.xcdatamodel; sourceTree = "<group>"; };
+		8297AA3724E5BC6200C147F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8297AA3A24E5BC6200C147F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8297AA3C24E5BC6200C147F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8297AA4124E5BC6200C147F8 /* tvWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8297AA4524E5BC6200C147F8 /* tvWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvWeatherAppTests.swift; sourceTree = "<group>"; };
+		8297AA4724E5BC6200C147F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8297AA4C24E5BC6300C147F8 /* tvWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8297AA5024E5BC6300C147F8 /* tvWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvWeatherAppUITests.swift; sourceTree = "<group>"; };
+		8297AA5224E5BC6300C147F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8297AA2724E5BC6000C147F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8297AA3E24E5BC6200C147F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8297AA4924E5BC6300C147F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8297AA2124E5BC6000C147F8 = {
+			isa = PBXGroup;
+			children = (
+				8297AA2C24E5BC6000C147F8 /* tvWeatherApp */,
+				8297AA4424E5BC6200C147F8 /* tvWeatherAppTests */,
+				8297AA4F24E5BC6300C147F8 /* tvWeatherAppUITests */,
+				8297AA2B24E5BC6000C147F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8297AA2B24E5BC6000C147F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8297AA2A24E5BC6000C147F8 /* tvWeatherApp.app */,
+				8297AA4124E5BC6200C147F8 /* tvWeatherAppTests.xctest */,
+				8297AA4C24E5BC6300C147F8 /* tvWeatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8297AA2C24E5BC6000C147F8 /* tvWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				8297AA2D24E5BC6000C147F8 /* AppDelegate.swift */,
+				8297AA2F24E5BC6000C147F8 /* ViewController.swift */,
+				8297AA3124E5BC6000C147F8 /* Main.storyboard */,
+				8297AA3724E5BC6200C147F8 /* Assets.xcassets */,
+				8297AA3924E5BC6200C147F8 /* LaunchScreen.storyboard */,
+				8297AA3C24E5BC6200C147F8 /* Info.plist */,
+				8297AA3424E5BC6000C147F8 /* tvWeatherApp.xcdatamodeld */,
+			);
+			path = tvWeatherApp;
+			sourceTree = "<group>";
+		};
+		8297AA4424E5BC6200C147F8 /* tvWeatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8297AA4524E5BC6200C147F8 /* tvWeatherAppTests.swift */,
+				8297AA4724E5BC6200C147F8 /* Info.plist */,
+			);
+			path = tvWeatherAppTests;
+			sourceTree = "<group>";
+		};
+		8297AA4F24E5BC6300C147F8 /* tvWeatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8297AA5024E5BC6300C147F8 /* tvWeatherAppUITests.swift */,
+				8297AA5224E5BC6300C147F8 /* Info.plist */,
+			);
+			path = tvWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8297AA2924E5BC6000C147F8 /* tvWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8297AA5524E5BC6300C147F8 /* Build configuration list for PBXNativeTarget "tvWeatherApp" */;
+			buildPhases = (
+				8297AA2624E5BC6000C147F8 /* Sources */,
+				8297AA2724E5BC6000C147F8 /* Frameworks */,
+				8297AA2824E5BC6000C147F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvWeatherApp;
+			productName = tvWeatherApp;
+			productReference = 8297AA2A24E5BC6000C147F8 /* tvWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8297AA4024E5BC6200C147F8 /* tvWeatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8297AA5824E5BC6300C147F8 /* Build configuration list for PBXNativeTarget "tvWeatherAppTests" */;
+			buildPhases = (
+				8297AA3D24E5BC6200C147F8 /* Sources */,
+				8297AA3E24E5BC6200C147F8 /* Frameworks */,
+				8297AA3F24E5BC6200C147F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8297AA4324E5BC6200C147F8 /* PBXTargetDependency */,
+			);
+			name = tvWeatherAppTests;
+			productName = tvWeatherAppTests;
+			productReference = 8297AA4124E5BC6200C147F8 /* tvWeatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8297AA4B24E5BC6300C147F8 /* tvWeatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8297AA5B24E5BC6300C147F8 /* Build configuration list for PBXNativeTarget "tvWeatherAppUITests" */;
+			buildPhases = (
+				8297AA4824E5BC6300C147F8 /* Sources */,
+				8297AA4924E5BC6300C147F8 /* Frameworks */,
+				8297AA4A24E5BC6300C147F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8297AA4E24E5BC6300C147F8 /* PBXTargetDependency */,
+			);
+			name = tvWeatherAppUITests;
+			productName = tvWeatherAppUITests;
+			productReference = 8297AA4C24E5BC6300C147F8 /* tvWeatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8297AA2224E5BC6000C147F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "jose sanchez";
+				TargetAttributes = {
+					8297AA2924E5BC6000C147F8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8297AA4024E5BC6200C147F8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8297AA2924E5BC6000C147F8;
+					};
+					8297AA4B24E5BC6300C147F8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8297AA2924E5BC6000C147F8;
+					};
+				};
+			};
+			buildConfigurationList = 8297AA2524E5BC6000C147F8 /* Build configuration list for PBXProject "tvWeatherApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8297AA2124E5BC6000C147F8;
+			productRefGroup = 8297AA2B24E5BC6000C147F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8297AA2924E5BC6000C147F8 /* tvWeatherApp */,
+				8297AA4024E5BC6200C147F8 /* tvWeatherAppTests */,
+				8297AA4B24E5BC6300C147F8 /* tvWeatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8297AA2824E5BC6000C147F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8297AA3B24E5BC6200C147F8 /* LaunchScreen.storyboard in Resources */,
+				8297AA3824E5BC6200C147F8 /* Assets.xcassets in Resources */,
+				8297AA3324E5BC6000C147F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8297AA3F24E5BC6200C147F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8297AA4A24E5BC6300C147F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8297AA2624E5BC6000C147F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8297AA3024E5BC6000C147F8 /* ViewController.swift in Sources */,
+				8297AA3624E5BC6000C147F8 /* tvWeatherApp.xcdatamodeld in Sources */,
+				8297AA2E24E5BC6000C147F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8297AA3D24E5BC6200C147F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8297AA4624E5BC6200C147F8 /* tvWeatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8297AA4824E5BC6300C147F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8297AA5124E5BC6300C147F8 /* tvWeatherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8297AA4324E5BC6200C147F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8297AA2924E5BC6000C147F8 /* tvWeatherApp */;
+			targetProxy = 8297AA4224E5BC6200C147F8 /* PBXContainerItemProxy */;
+		};
+		8297AA4E24E5BC6300C147F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8297AA2924E5BC6000C147F8 /* tvWeatherApp */;
+			targetProxy = 8297AA4D24E5BC6300C147F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8297AA3124E5BC6000C147F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8297AA3224E5BC6000C147F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8297AA3924E5BC6200C147F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8297AA3A24E5BC6200C147F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8297AA5324E5BC6300C147F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		8297AA5424E5BC6300C147F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8297AA5624E5BC6300C147F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tvWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.josesanchez.tvWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		8297AA5724E5BC6300C147F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tvWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.josesanchez.tvWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		8297AA5924E5BC6300C147F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tvWeatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.josesanchez.tvWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvWeatherApp.app/tvWeatherApp";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		8297AA5A24E5BC6300C147F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tvWeatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.josesanchez.tvWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvWeatherApp.app/tvWeatherApp";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
+		8297AA5C24E5BC6300C147F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tvWeatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.josesanchez.tvWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = tvWeatherApp;
+			};
+			name = Debug;
+		};
+		8297AA5D24E5BC6300C147F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tvWeatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.josesanchez.tvWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = tvWeatherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8297AA2524E5BC6000C147F8 /* Build configuration list for PBXProject "tvWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8297AA5324E5BC6300C147F8 /* Debug */,
+				8297AA5424E5BC6300C147F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8297AA5524E5BC6300C147F8 /* Build configuration list for PBXNativeTarget "tvWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8297AA5624E5BC6300C147F8 /* Debug */,
+				8297AA5724E5BC6300C147F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8297AA5824E5BC6300C147F8 /* Build configuration list for PBXNativeTarget "tvWeatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8297AA5924E5BC6300C147F8 /* Debug */,
+				8297AA5A24E5BC6300C147F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8297AA5B24E5BC6300C147F8 /* Build configuration list for PBXNativeTarget "tvWeatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8297AA5C24E5BC6300C147F8 /* Debug */,
+				8297AA5D24E5BC6300C147F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8297AA3424E5BC6000C147F8 /* tvWeatherApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8297AA3524E5BC6000C147F8 /* tvWeatherApp.xcdatamodel */,
+			);
+			currentVersion = 8297AA3524E5BC6000C147F8 /* tvWeatherApp.xcdatamodel */;
+			path = tvWeatherApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8297AA2224E5BC6000C147F8 /* Project object */;
+}
