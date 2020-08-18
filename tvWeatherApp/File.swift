@@ -6,4 +6,10 @@
 //  Copyright © 2020 jose sanchez. All rights reserved.
 //
 
+/* struct Location: Codable {
+    let lat = Double
+    let lon = Double
+    let name = String?
+} */
+
 import Foundation
